@@ -5231,7 +5231,7 @@ Opazujmo rešljivo grupo $G = \ZZ^d \rtimes_\varphi \ZZ$, kjer je
 \]
 Ker je po predpostavki o determinanti produkt vseh absolutnih vrednosti lastnih vrednosti matrike $A$ enak $1$, je $\Lambda \geq 1$. {\em Predpostavimo}, da je $\Lambda > 1$.\footnote{Če je $\Lambda = 1$, potem ni težko premisliti, da je $A$ nujno končnega reda.} Trdimo, da tedaj velja neenakost
 \[
-\Omega(G) \geq 2^{\frac{1}{2 \log_2 \Lambda + 4}}.
+\Omega(G) \geq 2^{\frac{1}{2 \log_\Lambda 2 + 4}}.
 \]
 Torej ima grupa $G$ enakomerno eksponentno rast in spodnja meja je odvisna le od $\Lambda$.
 
@@ -5257,7 +5257,7 @@ S tem je $\beta_{G,S}(n(2N + 4) + 4) \geq 2^{n+1}$. Uvedimo $x = n(2N + 4) + 4$,
 \]
 torej v limiti $n \to \infty$ dobimo
 \[
-\omega_S(G) \geq 2^{\frac{1}{2N+4}} \geq 2^{\frac{1}{2 \log_2 \Lambda + 4}}.
+\omega_S(G) \geq 2^{\frac{1}{2N+4}} \geq 2^{\frac{1}{2 \log_\Lambda 2 + 4}}.
 \]
 \end{zgled}
 
@@ -5327,6 +5327,7 @@ Na podlagi teh idej je z orodji iz nekomutativne aditivne kombinatorike \href{ht
 \[
 B_{\SL_2(\ZZ/p\ZZ), \pi(H)}(C \log p) = \SL_2(\ZZ/p\ZZ).
 \]
+Poenostavljena različica tega dokaza je predstavljena v \href{https://repozitorij.uni-lj.si/IzpisGradiva.php?id=140815&lang=eng}{(Cerar 2022)}.
 V le parih korakih, primerljivih z $\log |\SL_2(\ZZ/p\ZZ)|$, lahko torej pokrijemo {\em celotno} grupo $\SL_2(\ZZ/p\ZZ)$. Ta rezultat je bil kasneje ustrezno posplošen na druge generirajoče množice grup $\SL_n(\field_q)$ in je vodil v velik razvoj študija rasti v {\em končnih} grupah.
 \end{zgled}
 
